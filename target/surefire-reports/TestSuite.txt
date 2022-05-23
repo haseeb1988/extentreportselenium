@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 86.791 sec <<< FAILURE! - in TestSuite
+functionality1Test2(Demo_ExtentReport.ExtentReport)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Sakinala] but found [Krishna]
+	at Demo_ExtentReport.ExtentReport.functionality1Test2(ExtentReport.java:99)
+
+functionality1Test3(Demo_ExtentReport.ExtentReport)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect [Krishna] but found [Krishna]
+	at Demo_ExtentReport.ExtentReport.functionality1Test3(ExtentReport.java:106)
+
+verifyTitle(testcases.TestForEbay)  Time elapsed: 0.175 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.TestForEbay.verifyTitle(TestForEbay.java:53)
+
+searchProduct(testcases.TestForEbay)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.TestForEbay.searchProduct(TestForEbay.java:61)
+
+tearDown(testcases.TestForEbay)  Time elapsed: 0.954 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.TestForEbay.tearDown(TestForEbay.java:69)
+

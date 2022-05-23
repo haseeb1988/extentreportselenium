@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.791" tests="8" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\bin"/>
+    <property name="java.vm.version" value="25.282-b08"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\PSAdmin\eclipse-workspace\selenium_ExtentReport"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\PSAdmin\eclipse-workspace\selenium_ExtentReport"/>
+    <property name="java.runtime.version" value="1.8.0_282-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PSAdmin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\PSAdmin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13622989649428832994.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/PSAdmin/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/PSAdmin/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Windows\System32\;&quot;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS&quot;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\apache-maven\bin;C:\apache-maven\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\PSAdmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\eclipse;C:\PROGRA~1\Java\jdk1.8.0_301;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Windows\System32\curl.exe;C:\apache-maven\bin;C:\Program Files\TestProject Agent;C:\Users\PSAdmin\AppData\Roaming\npm;C:\Users\PSAdmin\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\PSAdmin"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="PSAdmin"/>
+    <property name="java.class.path" value="C:\Users\PSAdmin\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_282"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\resources.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\rt.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\sunrsasign.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jsse.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jce.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\charsets.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jfr.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="C:\Users\PSAdmin\eclipse-workspace\selenium_ExtentReport\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyTittleTest" classname="Demo_ExtentReport.ExtentReport" time="0.015"/>
+  <testcase name="fillRegistrationformTest" classname="Demo_ExtentReport.ExtentReport" time="10.159"/>
+  <testcase name="functionality1Test1" classname="Demo_ExtentReport.ExtentReport" time="0"/>
+  <testcase name="functionality1Test2" classname="Demo_ExtentReport.ExtentReport" time="0.009">
+    <failure message="expected [Sakinala] but found [Krishna]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Sakinala] but found [Krishna]
+	at Demo_ExtentReport.ExtentReport.functionality1Test2(ExtentReport.java:99)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 10222
+Only local connections are allowed.
+May 23, 2022 5:12:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="functionality1Test3" classname="Demo_ExtentReport.ExtentReport" time="0">
+    <failure message="did not expect [Krishna] but found [Krishna]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect [Krishna] but found [Krishna]
+	at Demo_ExtentReport.ExtentReport.functionality1Test3(ExtentReport.java:106)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 33710
+Only local connections are allowed.
+May 23, 2022 5:12:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTitle" classname="testcases.TestForEbay" time="0.175">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testcases.TestForEbay.verifyTitle(TestForEbay.java:53)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 13763
+Only local connections are allowed.
+May 23, 2022 5:12:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="searchProduct" classname="testcases.TestForEbay" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testcases.TestForEbay.searchProduct(TestForEbay.java:61)
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="testcases.TestForEbay" time="0.954">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testcases.TestForEbay.tearDown(TestForEbay.java:69)
+</failure>
+  </testcase>
+</testsuite>

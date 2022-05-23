@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+  <test name="Simple Test">
+    <classes>
+      <class name="Demo_ExtentReport.ExtentReport"/>
+      <class name="testcases.TestForEbay"/>
+  
+    </classes>
+  </test>
+</suite>

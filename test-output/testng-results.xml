@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29736" started-at="2022-05-18T18:01:01 EDT" finished-at="2022-05-18T18:01:31 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29736" started-at="2022-05-18T18:01:01 EDT" finished-at="2022-05-18T18:01:31 EDT">
+      <class name="testingpages.SearchFeatureTesting">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testingpages.SearchFeatureTesting@184f6be2]" name="setup" is-config="true" duration-ms="4382" started-at="2022-05-18T18:00:57 EDT" finished-at="2022-05-18T18:01:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testingpages.SearchFeatureTesting@184f6be2]" name="test2" duration-ms="24062" started-at="2022-05-18T18:01:01 EDT" finished-at="2022-05-18T18:01:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:testingpages.SearchFeatureTesting@184f6be2]" name="test1" duration-ms="5643" started-at="2022-05-18T18:01:25 EDT" finished-at="2022-05-18T18:01:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testingpages.SearchFeatureTesting@184f6be2]" name="tearDown" is-config="true" duration-ms="1408" started-at="2022-05-18T18:01:31 EDT" finished-at="2022-05-18T18:01:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testingpages.SearchFeatureTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
